@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int length,breadth;
+    printf("enter the value=");
+    scanf("%d",&length);
+    printf("enter the value=");
+    scanf("%d",&breadth);
+    printf("the total area  is=%d",length*breadth);
+    printf("\nthe circumference is=%d",2*(length+breadth));
+    
+    
+
+    return 0;
+}

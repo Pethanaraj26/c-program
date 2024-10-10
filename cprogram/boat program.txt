@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+   int adult=90,children=30,boat=110,total;
+    total=adult+children;
+   if(boat>total)
+   { 
+       printf("the boat is stable");
+   } 
+   else
+   { 
+       printf("the boat will be drown");
+   }
+
+    return 0;
+}

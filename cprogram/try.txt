@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<string.h>
+int main() {
+     int i,j;
+    int a[3]={1,2,3};
+     int a1[3]={1,2,3};
+    if(a==a1)
+    { 
+        printf("same ");
+    }
+    else 
+    { 
+        printf("not same");
+    }
+    return 0;
+}

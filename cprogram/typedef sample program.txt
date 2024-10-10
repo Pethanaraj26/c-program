@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+  typedef float num;
+  num a;a=786;
+  printf("%f",a);
+    return 0;
+}

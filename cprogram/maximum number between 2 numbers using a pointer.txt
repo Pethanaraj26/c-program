@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int max1,max2,*p,*q;
+    printf("enter the max 1=");
+    scanf("%d",&max1);
+     printf("enter the max 2=");
+    scanf("%d",&max2 );
+    p=&max1;
+    q=&max2;
+    if(*p>*q)
+    { 
+        printf("the  maximum number is =%d",*p);
+    } 
+    else if(*p==*q)
+    { 
+        printf("the number is equal");
+    }
+    else 
+    { 
+        printf("the maximum number is =%d",*q);
+    }
+    
+  
+    
+        return 0;
+    
+}

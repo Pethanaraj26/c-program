@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int m=10;
+    int*p;
+    p=&m;
+    printf("\n%d",*p);
+    int **z;
+    z=&p;
+    printf("\n%d",**z);
+    int***r;
+    r=&z;
+    printf("\n%d",***r);
+    
+
+    return 0;
+}

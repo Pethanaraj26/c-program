@@ -1,0 +1,17 @@
+#include <stdio.h>
+struct structure 
+{ 
+    int a;
+    float b;
+};
+
+int main() {
+    struct structure s1;
+    s1.a=100;
+    s1.b=10;
+    printf("integers=%d",s1.a);
+    printf("\nfloat=%f",s1.b);
+   
+
+    return 0;
+}

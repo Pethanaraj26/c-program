@@ -1,0 +1,10 @@
+
+#include <stdio.h>
+int main()
+{ 
+  FILE *fp;
+  fp=fopen("human.txt","w");
+ 
+  fclose(fp);
+
+}

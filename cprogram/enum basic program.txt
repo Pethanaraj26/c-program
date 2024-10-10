@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{   
+   
+    enum days{sunday,monday,tuesday,wednesday,thursday,friday,saturday};
+    enum days d;
+    d=monday;
+    printf("%d",d);
+    return 0;
+}

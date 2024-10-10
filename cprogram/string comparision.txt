@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<string.h>
+int main() {
+   char s1[15]="raj";
+   char s2[15]="raj";
+   if(strcmp(s1,s2)==0)
+   { 
+       printf("equal");
+   } 
+   else
+   { 
+       printf("not equal");
+   }
+ return 0;
+}

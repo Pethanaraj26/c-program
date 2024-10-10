@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int a=3,b=1;
+    a+=b;
+    printf("%d",a);
+    a-=b;
+    printf("\n%d",a);
+    a*=b;
+    printf("\n%d",a);
+    a/=b;    
+    printf("\n%d",a);  
+    a%=b;
+    printf("\n%d",a);  
+    a&=b;
+    printf("\n%d",a);   
+    a|=b;
+    printf("\n%d",a);  
+    a>>=b;
+    printf("\n%d",a);
+     a<<=b;
+    printf("\n%d",a);  
+    return 0;
+}

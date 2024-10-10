@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int a[50],n,i,data,found=0;
+    printf("\n enter the number of elements=");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    { 
+        printf("\n enter the element=");
+        scanf("%d",&a[i]);
+    } 
+    printf("\n enter the data=");
+    scanf("%d",&data);
+    for(i=0;i<n;i++)
+    { 
+        if(a[i]==data)
+   { 
+       printf("\n the elements found at=%d",i);
+       found=1;
+       break;
+   } 
+   if(found==0)
+    {
+        printf("\n the elements not found");
+    }
+    }
+    return 0;
+}

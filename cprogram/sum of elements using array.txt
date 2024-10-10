@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int i,count=0;
+    int s[8]={1,2,3,4,5};
+    for (i=0;i<8;i++)
+    { 
+        count=count+s[i];
+    }
+    printf("total value=%d",count);
+    return 0;
+}

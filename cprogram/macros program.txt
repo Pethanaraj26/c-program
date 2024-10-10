@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+#define sum(a, b) ((a) + (b)) 
+
+int main() {
+    int x = 10, y = 20, z;
+    
+    z=sum(x, y); 
+    printf("%d\n", z); 
+   
+    return 0;
+}
